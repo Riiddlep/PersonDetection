@@ -17,6 +17,8 @@ Run the following commands:
 npm i
 ```
 
+You can add photos in the resources/ folder to test the script
+
 ## Launching the web interface
 
 To launch the web interface, start by running the following commands:
@@ -33,7 +35,7 @@ You can now go to your browser at the address: `http://localhost:8000/` and ente
 On a new terminal, run the script using the following command.
 
 ```bash
-yarn run start-script-prod <imagePath> <configPath> <audioFilePath | [audioFilePath, audioFilePath2, ...]>
+yarn run start-script-prod <imagePath> <configPath> <audioFilePath | audioFilePath  audioFilePath2  ...>
 ```
 
 ## Authors
